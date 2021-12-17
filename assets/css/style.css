@@ -14,6 +14,9 @@
 
 .cabecalho {
     grid-area: cabecalho;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
 }
  
 .conteudo {
@@ -21,6 +24,6 @@
 }
 
 .rodape {  
-    background: blue;
+
     grid-area: rodape;
 }
